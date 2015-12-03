@@ -1,0 +1,25 @@
+li {
+  list-style: none;
+  display: inline;
+  font-weight: bold;
+  margin-right: 60px; }
+
+.first-para, .second-para {
+  font-size: 20px;
+  color: blue;
+  text-align: center; }
+
+body {
+  background-color: gray; }
+
+.navbar {
+  text-align: center; }
+
+h1 {
+  font-size: 50px;
+  text-align: center; }
+
+.first-para, .second-para {
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */

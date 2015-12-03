@@ -1,0 +1,30 @@
+
+// 3 partials to be included on stylesheet//
+
+@import 'list';
+@import 'variables';
+@import 'text';
+
+// variable used in the next 4 selectors//
+body {
+background-color: $default-color;
+}
+
+.navbar {
+text-align: $default-text-align;
+}
+
+h1 {
+font-size: $standard-font-size;
+text-align: $default-text-align;
+}
+
+.first-para {
+text-align: $default-text-align;
+}
+//example of extend feature//
+.second-para {
+@extend.first-para;
+}
+
+
